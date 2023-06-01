@@ -9,38 +9,41 @@
   <body>
     <h1>Contact Me</h1>
     <p>You can reach out to me by completing the below information</p>
-    <form action="post"></form>
-    <fieldset>
-      <label for="first-name">Enter Your First Name:</label>
-      <input type="text" id="first-name" name="first-name" />
-      <label for="last-name">Enter Your Last Name:</label>
-      <input type="text" id="last-name" name="last-name" />
-      <label for="email">Enter Your email:</label>
-      <input type="email" id="email" name="email" required />
-    </fieldset>
-    <br />
+    <form action="post">
+      <fieldset>
+        <label for="first-name">Enter Your First Name:</label>
+        <input type="text" id="first-name" name="first-name" />
+        <label for="last-name">Enter Your Last Name:</label>
+        <input type="text" id="last-name" name="last-name" />
+        <label for="email">Enter Your email:</label>
+        <input type="email" id="email" name="email" required />
+      </fieldset>
+      <br />
 
-    <fieldset>
-      <label for="reason">Reason for contact</label>
-      <select name="rwason" id="reason">
-        <option value="">Choose one</option>
-        <option value="1">For a frontend job</option>
-        <option value="2">For a backend job</option>
-        <option value="3">For full website design</option>
-        <option value="4">For a freelancing collaboration</option>
-      </select>
-    </fieldset>
-    <br />
+      <fieldset>
+        <label for="reason">Reason for contact</label>
+        <select name="rwason" id="reason">
+          <option value="">Choose one</option>
+          <option value="1">For a frontend job</option>
+          <option value="2">For a backend job</option>
+          <option value="3">For full website design</option>
+          <option value="4">For a freelancing collaboration</option>
+        </select>
+      </fieldset>
+      <br />
 
-    <fieldset>
-      <label for="moreInfo">Provide more Information:</label>
-      <textarea
-        name="moreInfo"
-        id="moreInfo"
-        cols="30"
-        rows="5"
-        placeholder="Job Description"
-      ></textarea>
-    </fieldset>
+      <fieldset>
+        <label for="moreInfo">Provide more Information:</label>
+        <textarea
+          name="moreInfo"
+          id="moreInfo"
+          cols="30"
+          rows="5"
+          placeholder="Job Description"
+        ></textarea>
+      </fieldset>
+      <br />
+      <input type="submit" value="Submit" />
+    </form>
   </body>
 </html>
