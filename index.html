@@ -10,12 +10,12 @@
   <body>
     <header>
       <h1>Wasiu</h1>
-      <div id="header">
+      <!-- <div id="header">
         <figure>
           <img src="./images/background.webp" alt="Wasiu Photo" /> <br />
           <figcaption>This pic will be updated later</figcaption>
         </figure>
-      </div>
+      </div> -->
       <nav>
         <a href="pages/contact.html" target="_blank" rel="myPhoto"
           >Contact Me</a
@@ -32,34 +32,61 @@
     </header>
     <main>
       <section>
-        <h3 class="text-class">About Me</h3>
-        <figure>
-          <img src="./images/caption1.png" alt="quotes" /> <br />
-          <figcaption>While coding, I try to think programmatically</figcaption>
-          <br />
-          <img src="./images/caption2.png" alt="code_image" /> <br />
-          <figcaption>Programming in being applied in my daily life</figcaption>
-        </figure>
-
+        <h2 class="text-class">About Me</h2>
         <p>
           I am an aspiring Web Developer with strong focus on the backend
           technological innovations, server-side rendering and cloud deployment.
-        </p>
-        <p>
-          At first, I was learning Java but along the line, I picked up interest
-          in javascript because of its versatility, and ease with which I can
-          build less complex applications as a beginner.
-        </p>
-        <p>
-          I am learning coding because of the opportunities it offers. One will
-          always be challanged to learn new concepts, and it offers flexible
-          working pattern. Programming langugaes are universal, hence, I can
-          always work from anywhere in the world.
+          I picked up interest in Web Development and Javascript because of its
+          versatility, and ease with which I can build less complex
+          applicationsas a beginner. I am learning coding because of the
+          opportunities it offers. One will always be challanged to learn new
+          concepts, and it offers flexible working pattern. Programming
+          langugaes are universal, hence, I can always work from anywhere in the
+          world.
         </p>
       </section>
 
+      <h2>Contact Me</h2>
+      <p>You can reach out to me by completing the below information</p>
+      <form action="post">
+        <fieldset>
+          <label for="first-name">Enter Your First Name:</label>
+          <input type="text" id="first-name" name="first-name" />
+          <label for="last-name">Enter Your Last Name:</label>
+          <input type="text" id="last-name" name="last-name" />
+          <label for="email">Enter Your email:</label>
+          <input type="email" id="email" name="email" required />
+        </fieldset>
+        <br />
+
+        <fieldset>
+          <label for="reason">Reason for contact</label>
+          <select name="rwason" id="reason">
+            <option value="">Choose one</option>
+            <option value="1">For a frontend job</option>
+            <option value="2">For a backend job</option>
+            <option value="3">For full website design</option>
+            <option value="4">For a freelancing collaboration</option>
+          </select>
+        </fieldset>
+        <br />
+
+        <fieldset>
+          <label for="moreInfo">Provide more Information:</label>
+          <textarea
+            name="moreInfo"
+            id="moreInfo"
+            cols="30"
+            rows="5"
+            placeholder="Job Description"
+          ></textarea>
+        </fieldset>
+        <br />
+        <input type="submit" value="Submit" />
+      </form>
+
       <section>
-        <h3 class="text-class">Qualities</h3>
+        <h2 class="text-class">Qualities</h2>
         <ol>
           <li>Friendly</li>
           <li>Genrous</li>
@@ -68,7 +95,7 @@
       </section>
 
       <section>
-        <h3 class="text-class">Hobbies & Interests</h3>
+        <h2 class="text-class">Hobbies & Interests</h2>
         <ul>
           <li>Travelling</li>
           <li>Learning new skills</li>
