@@ -10,6 +10,10 @@ body {
   color: #fff;
 }
 
+.container {
+  padding: 10px 10%;
+}
+
 h1 {
   background-color: #fb8500;
   width: 100%;
@@ -22,8 +26,11 @@ a {
 
 h1,
 h2 {
+  width: 20rem;
+  height: 10rem;
   margin: 30px auto;
   text-align: center;
+  padding: 0.5em;
 }
 
 p {
