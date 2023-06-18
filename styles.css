@@ -10,38 +10,97 @@ body {
   color: #fff;
 }
 
+#header {
+  height: 60vh;
+}
+
 .container {
   padding: 10px 10%;
 }
 
-h1 {
-  background-color: #fb8500;
-  width: 100%;
+nav {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
 }
 
-a {
-  color: #fff;
+.logo {
+  width: 140px;
+}
+
+nav ul li {
+  display: inline-block;
+  list-style: none;
+  margin: 10px 20px;
+}
+
+nav ul li a {
+  color: white;
   text-decoration: none;
+  font-size: 18px;
 }
 
-h1,
-h2 {
-  width: 20rem;
-  height: 10rem;
-  margin: 30px auto;
-  text-align: center;
-  padding: 0.5em;
+.header-text p {
+  margin-top: 10%;
+  font-size: 30px;
 }
 
-p {
-  text-align: center;
+.header-text span {
+  color: #ffb703;
 }
 
-.text-class {
-  background-color: #808080;
+.user {
+  border-radius: 145px;
+  margin: 0 auto;
+  box-shadow: 0 0 10px;
+}
+
+#about {
+  margin: 80px 0;
+  color: #ababab;
+}
+
+.row {
+  width: 100%; /* added by me */
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+
+.about-col-1 {
+  flex-basis: 35%;
+}
+
+.about-col-2 {
+  flex-basis: 60%;
+}
+
+.sub-title {
+  font-size: 30px;
+  font-weight: 600;
   color: #fff;
+  margin-bottom: 1rem;
 }
 
-.descrb {
-  color: #b86200;
+.tab-titles {
+  display: flex;
+  margin: 20px 0 40px;
+}
+
+.tab-contents p {
+  font-size: 18px;
+  font-weight: 500;
+  margin-right: 50%;
+}
+
+.tab-contents ul li {
+  width: 75%;
+  list-style: none;
+  margin: 10px 0;
+}
+
+.tab-contents span {
+  color: #ff004f;
+  font-size: 14px;
 }
